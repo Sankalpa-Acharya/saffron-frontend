@@ -1,5 +1,5 @@
 import React from "react";
-import image from '../../public/image.jpg'
+import image from "../../public/image.jpg";
 
 const HomePage = () => {
   return (
@@ -25,26 +25,31 @@ const HomePage = () => {
         <div className="mt-28 w-[80%] flex">
           <div className=" w-[50%]">
             <h1 className="text-7xl font-extrabold">Saffron</h1>
-            <p className="mt-3  text-2xl font-mono font-medium">A conversational AI tool <br/> by Saffron</p>
-            <p className="w-[50%] mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque pariatur libero Lorem, ipsum.</p>
-            <button className="mt-5 p-2 px-3 rounded-xl bg-indigo-700">Start Chat</button>
+            <p className="mt-3  text-2xl font-mono font-medium">
+              A conversational AI tool <br /> by Saffron
+            </p>
+            <p className="w-[50%] mt-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+              pariatur libero Lorem, ipsum.
+            </p>
+            <button className="mt-5 p-2 px-3 rounded-xl bg-indigo-700">
+              Start Chat
+            </button>
           </div>
 
-            <div className=" w-[50%]">
-                <div className="relative bottom-20">
-                <img src={image} className="rounded-xl" alt="" />
-                <div className=" flex justify-end relative left-4 bottom-4">
-                    <div className="bg-[#191919] flex items-center text-white rounded-2xl px-3 py-4">
-                    <p className="px-2 py-1 mr-4 rounded-full  bg-gray-600">
-                    🌿
-                    </p>
-                    <p className="font-medium">
+          <div className=" w-[50%]">
+            <div className="relative bottom-20">
+              <img src={image} className="rounded-xl" alt="" />
+              <div className=" flex justify-end relative left-4 bottom-4">
+                <div className="bg-[#191919] flex items-center text-white rounded-2xl px-3 py-4">
+                  <p className="px-2 py-1 mr-4 rounded-full  bg-gray-600">🌿</p>
+                  <p className="font-medium">
                     Hello! How can I assist you today ?
-                    </p>
-                    </div>
+                  </p>
                 </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
       </main>
     </div>
