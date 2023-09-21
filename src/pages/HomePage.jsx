@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../public/image.jpg";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -14,9 +15,9 @@ const HomePage = () => {
           </div>
           <div className="flex items-center mt-1">
             <p className="mr-5 text-lg cursor-pointer">FAQ</p>
-            <button className="bg-indigo-700 rounded-md px-3 py-2 shadow-lg font-bold text-center">
+            <Link to='/chat' className="bg-indigo-700 rounded-md px-3 py-2 shadow-lg font-bold text-center">
               Start Chat
-            </button>
+            </Link>
           </div>
         </div>
       </header>
@@ -32,9 +33,11 @@ const HomePage = () => {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
               pariatur libero Lorem, ipsum.
             </p>
+            <Link to='/chat'>
             <button className="mt-5 p-2 px-3 rounded-xl bg-indigo-700">
               Start Chat
             </button>
+            </Link>
           </div>
 
           <div className=" w-[50%]">
